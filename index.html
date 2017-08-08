@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cyrstals Game</title>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+
+<body>
+
+  <div id="game">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Instructions</h3>
+            </div>
+            <div class="panel-body">
+              <p>A random number will be provided at the start of the game.  Each of the crystals below will also be assigned a random value - which you won't know until you click on it.  The goal of the game is to continue clicking the cyrstals until you match the randomly generated score.  Match the score - you win.  Don't mathch the score - you lose.  Don't worry, we'll keep track.  Good luck!</p>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <img id="blueGem" src="assets/images/BlueGem.png" class="img-responsive" alt="Blue Gem">
+              <img id="greenGem" src="assets/images/GreenGem.png" class="img-responsive" alt="Green Gem">
+              <img id="purpleGem" src="assets/images/PurpleGem.png" class="img-responsive" alt="Purple Gem">
+              <img id="redGem" src="assets/images/RedGem.png" class="img-responsive" alt="Red Gem">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">TARGET NUMBER</h1>
+            </div>
+            <div class="panel-body">
+              <span id="targetNumber"></span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">YOUR TOTAL</h1>
+            </div>
+            <div class="panel-body">
+              <span id="yourTotal"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">WINS</h1>
+            </div>
+            <div class="panel-body">
+              <span id="wins"></span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-xs-12 col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h1 class="panel-title">LOSSES</h1>
+            </div>
+            <div class="panel-body">
+              <span id="losses"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+  </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
